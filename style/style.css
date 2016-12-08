@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,500,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Ubuntu', 'Open Sans Light', Arial, sans-serif;
+	background-color: #fff;
+}
+
+
+
+
+p{
+	font-size: 14px;
+	color: #9499a2;
+}
+
+a{
+	text-decoration: none;
+	color: #2e2e2e;
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+.clear::after, .clear::before
+  {
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+
+
+.top-menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 29px 0;
+}
+
+.logo-top{
+	margin-left: 20px;
+}
+
+.top-menu  ul{
+	//outline: 1px solid red;
+	padding-top: 8px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+
+}
+
+.top-menu li{
+	
+	margin-left: 20px;
+}
+
+.top-menu li a{
+	text-transform: uppercase;
+	font-size: 16px;
+	
+
+}
+
+.top-menu a:hover{
+	color: #978787;
+}
+
+
+ .bg-fon{
+background: #fff url(../img/bg-content.png) 0 0 no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+	
+} 
+
+
+.content-all{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.content-left{
+	//outline: 1px solid blue;
+	padding-top: 240px;
+	width: 610px;
+	
+}
+
+.content-left h2{
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 52px;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.content-left article{
+	font-size: 24px;
+	color: #fff;
+	font-weight: 100;
+	padding:42px 0;
+
+}
+
+
+
+.sign-in p{
+	font-size: 16px;
+	color: #fff;
+    margin: 36px 0px;
+    font-weight: 600;
+}
+
+.sign-in .free{
+	border-radius: 3px;
+	padding: 9px;
+	background-color: #ffce54;
+	font-weight: 800;
+}
+
+.sign-in .email{
+	width: 390px;
+	padding:15px 0px;
+	padding-left: 30px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 100;
+	color: #2d394c;
+}
+
+.sign-in .submit{
+
+	border-style: none;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 37px;
+	padding: 15px 24px;
+	background-color: #77c344;
+	border-radius: 6px;
+	cursor: pointer
+}
+
+
+.content-right{
+	//outline: 1px solid green;
+	padding-top: 95px;
+}
+
+
+.color-partners{
+	background-color: #f8f8f8;
+
+}
+
+.partners{
+	height: 158px;
+	margin-bottom: 115px;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.h2-center{
+	padding-bottom: 31px;
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #2d394c;
+
+}
+
+.c-text{
+	width: 505px;
+	margin-top: 61px;
+	margin-left: 130px;
+}
+
+.c-text li{
+	margin-bottom: 35px;
+}
+
+.c-text-img, .c-text-img-1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.c-text-img h3{
+	margin-left: 20px;
+}
+
+
+.c-text-text{
+	margin-top: 15px;	
+}
+
+.c-text-text p{
+	font-size: 15px;
+	line-height: 20px;
+}
+
+
+.macbook{
+margin-top: 40px;
+margin-left: 90px;
+width: 760px;
+background: #fff url(../image/macbook1.png) 0 0 no-repeat;
+	
+}
+
+.c-middle-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 121px;
+}
+
+.c-middle-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	//margin-bottom: 121px;
+}
+
+.color-partners-1{
+	background-color: #f1f1f1;
+}
+
+
+
+.h2-center-2{
+	padding-top: 160px;
+	padding-bottom: 131px;
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #2d394c;
+}
+
+.c-text-1{
+	width: 715px;
+	margin-top: 61px;
+	margin-left: 130px;
+}
+
+
+.korabli{
+	margin-top: 86px;
+	margin-left: 90px;
+	width: 600px;
+	height: 140px;
+	background: #f1f1f1 url(../image/korabli-1.png) 54% 0 no-repeat;
+}
+
+
+.c-text-img-1 h3{
+	margin-left: 20px;
+	font-size: 24px;
+}
+
+.c-text-text-1{
+	margin-top: 15px;	
+}
+
+.c-text-text-1 p{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.nomer{
+	text-align: center;
+	padding-bottom: 120px;
+}
+
+.nomer span {
+	padding:5px 7px;
+	border-radius: 50%;
+	background-color: #64a4d7;
+	color: #fff;
+}
+
+.nomer a{
+	margin-right: 18px;
+}
+
+
+/* 
+
+
+	@media screen and (max-width: 360px){
+	
+	
+  
+
+	}
+
+	@media screen and (max-width: 480px){
+
+
+	}
+
+
+
+
+@media screen and (max-width: 640px){
+
+
+
+
+	}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+	
+
+
+
+}
+
+ @media only screen and (min-width: 1024px) {
+
+
+ }
+
+
+ @media only screen and (min-width: 1200px) {
+
+ 
+ 
+ }  
+
+
+
+
+
+ 
+ От И 1280px мониторы
+   @media only screen and (min-width: 1280px) {
+
+.container{
+	width: 1280px;
+}
+  .container-fluid{
+  	width: 100%;
+  }
+ 
+ }  
+
+
+  До И 1280px мониторы
+
+ @media only screen and (max-width: 1280px) {
+
+.container{
+	width: 1200px;
+}
+  .container-fluid{
+  	width: 100%;
+  }
+ 
+ } 
+
+  */
+
+
+ 
