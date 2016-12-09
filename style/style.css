@@ -303,6 +303,106 @@ background: #fff url(../image/macbook1.png) 0 0 no-repeat;
 }
 
 
+
+
+.c-bottom{
+	margin-top: 144px;
+	margin-bottom: 102px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.c-bottom h2{
+	padding-bottom: 40px;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #2d394c;	
+}
+
+.c-bottom p{
+	font-size: 20px;
+	padding-bottom: 58px;
+}
+
+.c-bottom .email{
+	width: 520px;
+	padding:15px 0px;
+	padding-left: 30px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 100;
+	color: #2d394c;
+}
+
+.c-bottom .submit{
+
+	border-style: none;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 37px;
+	padding: 15px 24px;
+	background-color: #77c344;
+	border-radius: 6px;
+	cursor: pointer
+}
+
+.b-gray{
+	background-color: #f9f9f9;
+}
+
+.bottom-menu{
+	padding: 61px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.b-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.b-social{
+	margin-left: 20px;
+}
+
+.b-social img{
+	margin-left: 21px;
+}
+
+
+.b-m-menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	border-right: 1px solid #d3d3d3;
+	padding-right: 20px;
+}
+
+.b-m-menu li{
+	margin-left: 38px;
+}
+
+.b-m-menu a{
+	text-transform: uppercase;
+	color: #9599a0;
+}
+
+.b-m-menu a:hover{
+	
+	color: #585859;
+}
+
+
+
+
+
 /* 
 
 
